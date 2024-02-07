@@ -1,1 +1,2 @@
-start .\PalServer.exe port=8211 players=32 EpicApp=PalServer -useperfthreads -NoAsyncLoadingThread -UseMultithreadForDS  -ServerName="JNStuido"
+cd ..\Binaries\Win64
+PalServer-Win64-Test-Cmd.exe port=55555 players=32 -useperfthreads -NoAsyncLoadingThread -UseMultithreadForDS
